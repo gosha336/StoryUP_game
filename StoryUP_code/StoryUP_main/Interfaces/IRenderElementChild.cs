@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace StoryUP_main.Interfaces
 {
-    public interface IUpdatable
+    public interface IRenderElementChild : IRenderElement, IChild<IRenderElementParent, IRenderElementChild>
     {
-        public event Action? Updated;
     }
 }

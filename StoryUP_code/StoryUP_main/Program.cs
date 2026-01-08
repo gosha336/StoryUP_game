@@ -1,4 +1,6 @@
-﻿namespace StoryUP_main
+﻿using System;
+
+namespace StoryUP_main
 {
     internal class Program
     {

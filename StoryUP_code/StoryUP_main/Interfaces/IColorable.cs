@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace StoryUP_main.Interfaces
 {
-    internal interface IColorable
+    public interface IColorable
     {
         public ColorStyle ColorStyle { get; set; }
         public Color? ForegroundColor { get; }

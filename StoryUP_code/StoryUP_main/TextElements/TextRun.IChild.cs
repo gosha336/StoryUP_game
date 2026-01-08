@@ -7,7 +7,7 @@ using StoryUP_main.Interfaces;
 
 namespace StoryUP_main.TextElements
 {
-    internal partial class TextRun : IChild<TextLine, TextRun>
+    public partial class TextRun : IChild<TextLine, TextRun>
     {
         private TextLine? _parent;
 

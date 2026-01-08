@@ -7,7 +7,7 @@ using StoryUP_main.Interfaces;
 
 namespace StoryUP_main.TextElements
 {
-    internal partial class TextRun : IColorable
+    public partial class TextRun : IColorable
     {
         private ColorStyle _colorStyle;
 

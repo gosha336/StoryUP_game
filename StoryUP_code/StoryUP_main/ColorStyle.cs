@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace StoryUP_main
 {
-    internal class ColorStyle: IUpdatable
+    public class ColorStyle: IUpdatable
     {
         private Color? _foregroundColor;
         public Color? ForegroundColor

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace StoryUP_main.TextElements
 {
-    internal partial class TextBlock : IParent<TextBlock, TextLine>
+    public partial class TextBlock : IParent<TextBlock, TextLine>
     {
         private List<TextLine> _children;
 

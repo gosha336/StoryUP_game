@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace StoryUP_main.TextElements
 {
-    internal partial class TextRun : IUpdatable
+    public partial class TextRun : IUpdatable
     {
         private string _text;
         public string Text

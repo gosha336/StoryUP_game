@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace StoryUP_main.Interfaces
 {
-    internal interface IChild<Parent, Child> where Parent : IParent<Parent, Child> where Child : IChild<Parent, Child>
+    public interface IChild<Parent, Child> where Parent : IParent<Parent, Child> where Child : IChild<Parent, Child>
     {
         public bool HasParent { get; }
 

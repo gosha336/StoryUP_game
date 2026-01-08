@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace StoryUP_main.TextElements
 {
-    internal partial class TextBlock : IUpdatable
+    public partial class TextBlock : IUpdatable
     {
         private bool _updateSuppressed;
         public IReadOnlyList<TextLine> Text

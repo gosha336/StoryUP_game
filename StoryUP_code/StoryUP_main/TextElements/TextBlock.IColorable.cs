@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace StoryUP_main.TextElements
 {
-    internal partial class TextBlock : IColorable
+    public partial class TextBlock : IColorable
     {
         private ColorStyle _colorStyle;
         public ColorStyle ColorStyle
